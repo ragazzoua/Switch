@@ -9,10 +9,10 @@ public class Main {
         } else if (value == 2) {
             System.out.println("Value is 2");
         } else {
-            System.out.println("Nor 1 or 2");
+            System.out.println("not 1 or 2");
         }
 
-        int switchValue = 1;
+        int switchValue = 3;
 
         switch (switchValue) {
             case 1:
@@ -20,6 +20,11 @@ public class Main {
                 break;
             case 2:
                 System.out.println("Value is 2");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("3 or 4 or 5 ");
                 break;
             default:
                 System.out.println("Value is not 1 or 2 ");
