@@ -25,6 +25,7 @@ public class Main {
             case 4:
             case 5:
                 System.out.println("3 or 4 or 5 ");
+                System.out.println("actually value = " + switchValue);
                 break;
             default:
                 System.out.println("Value is not 1 or 2 ");
